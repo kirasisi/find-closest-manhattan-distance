@@ -146,7 +146,8 @@ class PointSet:
                 return 0
             else:
                 return point,min(dmin)
-                
+
+#test                
 a = PointSet([(1,2),(3,4),(5,6),(4,3),(15,4),(27,29),(34,28),(45,64),(17,21),(38,53),(11,29),(41,23)])                
 lx = a.sortX() #sort list by x 
 ly = a.sortY()
